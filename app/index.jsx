@@ -19,6 +19,9 @@ export default function Home() {
       <Link href="/register" style={styles.link}>
         <ThemeText>Register Page</ThemeText>
       </Link>
+      <Link href="/profile" style={styles.link}>
+        <ThemeText>Profile Page</ThemeText>
+      </Link>
     </ThemeView>
   );
 }
