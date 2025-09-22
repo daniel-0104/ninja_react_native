@@ -13,12 +13,12 @@ export default function Home() {
 
       <Spacer />
 
-      <Link href="/login" style={styles.link}>
+      {/* <Link href="/login" style={styles.link}>
         <ThemeText>Login Page</ThemeText>
       </Link>
       <Link href="/register" style={styles.link}>
         <ThemeText>Register Page</ThemeText>
-      </Link>
+      </Link> */}
       <Link href="/profile" style={styles.link}>
         <ThemeText>Profile Page</ThemeText>
       </Link>

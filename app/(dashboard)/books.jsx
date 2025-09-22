@@ -7,7 +7,7 @@ import ThemeText from "../../components/ThemeText";
 
 export default function Books() {
   return (
-    <ThemeView style={styles.container}>
+    <ThemeView style={styles.container} safe={true}>
       <ThemeText title={true} style={styles.heading}>
         Your Reading List
       </ThemeText>
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "stretch",
-    justifyContent: "center",
+    // justifyContent: "center",
   },
   heading: {
     fontWeight: "bold",
